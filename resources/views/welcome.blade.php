@@ -16,7 +16,7 @@
             </div>
         </center>
         <br>
-        <p align="center">The master project repository is <a class="wn" href="https://github.com/shinochiha/Simple_Sales_App" target="_blank">github.com/shinochiha/Simple_Sales_App</a></p>
+        <p align="center">The master project repository is <a class="wn" href="https://github.com/shinochiha/Api-simplesalesapp" target="_blank">https://github.com/shinochiha/Api-simplesalesapp</a></p>
 
         <br>
         
