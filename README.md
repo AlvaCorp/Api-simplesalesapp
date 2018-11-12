@@ -22,7 +22,7 @@ Sales APP Restful API using Laravel API Resource (Laravel Version 5.7, PHP versi
 ### Installation
 ```sh
 $ git clone https://github.com/shinochiha/Simple_Sales_App.git
-$ cd Simple_Sales_App
+$ cd Api-simplesalesapp
 $ cp .env.example .env
 ```
 Open your favourite text editor.
