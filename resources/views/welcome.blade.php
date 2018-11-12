@@ -33,6 +33,13 @@
                     <td><a class="wn" href="localhost:8000/api/v1/customers" target="_blank">https://api-simplesalesapp.herokuapp.com/api/v1/customers</a></td>
                     <td>GET, POST, PATCH/PUT, DELETE</td>
                 </tr>
+                
+                <tr>
+                    <td>Categories</td>
+                    <td><a class="wn" href="localhost:8000/api/v1/categories" target="_blank">https://api-simplesalesapp.herokuapp.com/api/v1/categories</a></td> 
+                    <td>GET, POST, PATCH/PUT, DELETE</td>
+                    
+                </tr> 
 
                 <tr>
                     <td>Products</td>
@@ -46,13 +53,6 @@
                     <td><a class="wn" href="localhost:8000/api/v1/sales" target="_blank">https://api-simplesalesapp.herokuapp.com/api/v1/sales</a></td>
                     <td>GET, POST, PATCH/PUT, DELETE</td>
 
-                </tr> 
-
-                <tr>
-                    <td>Categories</td>
-                    <td><a class="wn" href="localhost:8000/api/v1/categories" target="_blank">https://api-simplesalesapp.herokuapp.com/api/v1/categories</a></td> 
-                    <td>GET, POST, PATCH/PUT, DELETE</td>
-                    
                 </tr> 
 
             </table>
