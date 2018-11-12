@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="css/style.css">
     <title>API - Simple Sales App</title>
-    <link rel="shortcut icon" href="{{ asset('ico/icon.png') }}">
+    <link rel="shortcut icon" href="ico/icon.png">
 </head>
         <body>
         <h1 align="center" id="stl" class="shadow">API - Simple Sales App</h1>
@@ -30,27 +30,27 @@
 
                 <tr>
                     <td>Customers</td>
-                    <td><a class="wn" href="https://simplesalesapp.herokuapp.com/api/v1/customers" target="_blank">https://simplesalesapp.herokuapp.com/api/v1/customers</a></td>
+                    <td><a class="wn" href="https://api-simplesalesapp.herokuapp.com/api/v1/customers" target="_blank">https://simplesalesapp.herokuapp.com/api/v1/customers</a></td>
                     <td>GET, POST, PATCH/PUT, DELETE</td>
                 </tr>
 
                 <tr>
                     <td>Products</td>
-                    <td><a class="wn" href="https://simplesalesapp.herokuapp.com/api/v1/products" target="_blank">https://simplesalesapp.herokuapp.com/api/v1/products</a></td>
+                    <td><a class="wn" href="https://api-simplesalesapp.herokuapp.com/api/v1/products" target="_blank">https://simplesalesapp.herokuapp.com/api/v1/products</a></td>
                     <td>GET, POST, PATCH/PUT, DELETE</td>
 
                 </tr> 
 
                 <tr>
                     <td>Sales</td>
-                    <td><a class="wn" href="https://simplesalesapp.herokuapp.com/api/v1/sales" target="_blank">https://simplesalesapp.herokuapp.com/api/v1/sales</a></td>
+                    <td><a class="wn" href="https://api-simplesalesapp.herokuapp.com/api/v1/sales" target="_blank">https://simplesalesapp.herokuapp.com/api/v1/sales</a></td>
                     <td>GET, POST, PATCH/PUT, DELETE</td>
 
                 </tr> 
 
                 <tr>
                     <td>Categories</td>
-                    <td><a class="wn" href="https://simplesalesapp.herokuapp.com/api/v1/categories" target="_blank">https://simplesalesapp.herokuapp.com/api/v1/categories</a></td> 
+                    <td><a class="wn" href="https://api-simplesalesapp.herokuapp.com/api/v1/categories" target="_blank">https://simplesalesapp.herokuapp.com/api/v1/categories</a></td> 
                     <td>GET, POST, PATCH/PUT, DELETE</td>
                     
                 </tr> 
