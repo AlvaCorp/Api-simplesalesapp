@@ -18,7 +18,7 @@ use Illuminate\Http\Request;
 // });
 
 
-Route::group(['prefix' => 'v1'], function() {
+Route::group(['prefix' => 'v2'], function() {
 	//buat Route customers
 	Route::apiResource('customers', CustomerController::class);
 	//buat Route Products

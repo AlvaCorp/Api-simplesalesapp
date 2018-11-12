@@ -5,18 +5,33 @@ namespace App\Http\Controllers;
 use App\Category;
 use Illuminate\Http\Request;
 use App\Http\Requests\CategoryRequest;
+use DB;
 
 class CategoryController extends Controller
 {
     
     public function index()
     {
-        return Category::all();
+        $category = DB::table('categories')->orderBy('category_id')->get()->all();
+        return $category;
     }
 
 
     public function store(CategoryRequest $request)
     {
+        $response1 = [
+            'msg' => 'Nama Product sudah terdaftar!'
+        ];
+
+        $name = Category::where('name',$request->name)->first();
+
+        if (!is_null($name)) {
+
+            return response()->json($response1, 406);
+
+        }
+
+
         $category = Category::create([
             'name' => $request->name
         ]);
@@ -38,6 +53,19 @@ class CategoryController extends Controller
 
     public function update(CategoryRequest $request, Category $category)
     {
+
+        $response1 = [
+            'msg' => 'Nama Product sudah terdaftar!'
+        ];
+
+        $name = Category::where('name',$request->name)->first();
+
+        if (!is_null($name)) {
+
+            return response()->json($response1, 406);
+
+        }
+        
         $category->name=$request->name;
         $category->save();
 

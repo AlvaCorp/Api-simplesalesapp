@@ -17,8 +17,8 @@ class CreateCustomersTable extends Migration
             
             $table->increments('cust_id');
             $table->string('name');
-            $table->string('phone',15);
-            $table->string('email');
+            $table->string('phone',14)->unique();
+            $table->string('email')->unique();
             
         });
     }
